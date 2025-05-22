@@ -6,61 +6,34 @@ namespace Question_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your Digit between 0 - 9 and see it word");
+       
+            Console.Write("Enter number from 0 to 9, and see the word of the number: ");
+          
+            string word = Console.ReadLine();
+            bool isNotNumber = int.TryParse(word, out int number);
 
-            int digit = int.Parse(Console.ReadLine());
-
-            
-
-            switch (digit)
+            if (!isNotNumber)
             {
-                case 0:
-                    Console.WriteLine("Zero");
-                   break;
-
-                case 1:
-                    Console.WriteLine("One");
-                    break;
-
-                case 2:
-                    Console.WriteLine("Two");
-                    break;
-
-                case 3:
-                    Console.WriteLine("Three");
-                    break;
-
-                case 4:
-                    Console.WriteLine("Four");
-                    break;
-
-                case 5:
-                    Console.WriteLine("Five");
-                    break;
-
-                case 6:
-                    Console.WriteLine("Six");
-                    break;
-
-                case 7:
-                    Console.WriteLine("Seven");
-                    break;
-
-                case 8:
-                    Console.WriteLine("Eight");
-                    break;
-
-                case 9:
-                    Console.WriteLine("Nine");
-                    break;
-
-                default:
-
-                    Console.WriteLine("You enter wrong input the number is between 0 and 9,");
-                    break;
-
-
+                Console.WriteLine("Invalid input, Enter numerical number from 0 to 9"); return;
             }
+
+            string result = number switch
+            {
+                0 => $"{word} in word is Zero",
+                1 => $"{word} in word is One",
+                2 => $"{word} in word is Two",
+                3 => $"{word} in word is Three",
+                4 => $"{word} in word is Four",
+                5 => $"{word} in word is Five",
+                6 => $"{word} in word is Six",
+                7 => $"{word} in word is Seven",
+                8 => $"{word} in word is Eight",
+                9 => $"{word} in word is Nine",
+                _ => "Out of range, Enter numerical number from 0 to 9"
+            };
+
+            Console.WriteLine(result);
+
         }
     }
 }
