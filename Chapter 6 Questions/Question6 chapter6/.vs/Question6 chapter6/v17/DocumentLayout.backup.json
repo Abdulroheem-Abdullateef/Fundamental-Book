@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ABDULLATEEF\\Desktop\\My Folder\\abdullateef\\Abdullateef File\\Abdul Lateef File\\Chapter 5\\Question 1 chapter5\\Chapter 6 Questions\\Question6 chapter6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB95129B-1BA6-0AE3-8228-F2B09FB8A526}|Question6 chapter6.csproj|c:\\users\\abdullateef\\desktop\\my folder\\abdullateef\\abdullateef file\\abdul lateef file\\chapter 5\\question 1 chapter5\\chapter 6 questions\\question6 chapter6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB95129B-1BA6-0AE3-8228-F2B09FB8A526}|Question6 chapter6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\My Folder\\abdullateef\\Abdullateef File\\Abdul Lateef File\\Chapter 5\\Question 1 chapter5\\Chapter 6 Questions\\Question6 chapter6\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\My Folder\\abdullateef\\Abdullateef File\\Abdul Lateef File\\Chapter 5\\Question 1 chapter5\\Chapter 6 Questions\\Question6 chapter6\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAACAIzMzMzPzvycAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:40:54.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
